@@ -1,5 +1,5 @@
 import random
-from item import Item
+# from item import Item
 
 class Personagem:
     def __init__(self, nome):
@@ -48,3 +48,5 @@ class Personagem:
 
     def esta_vivo(self):
         return self.vida_atual > 0
+
+    

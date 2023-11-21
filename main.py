@@ -1,9 +1,9 @@
 import random
-from personagem import Personagem
-from monstro import Monstro
-from item import Item
-from tesouro import Tesouro
-from utilidades import mostrar_mapa, fase_personagem, fase_monstro
+from mecanicas.personagem import Personagem
+from mecanicas.monstro import Monstro
+from mecanicas.item import Item
+from mecanicas.tesouro import Tesouro
+from mecanicas.utilidades import mostrar_mapa, fase_personagem, fase_monstro
 
 def main():
     nome_personagem = input("Digite o nome do personagem: ")
