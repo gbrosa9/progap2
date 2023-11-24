@@ -4,7 +4,7 @@ def mostrar_mapa(personagem, tesouro):
             if [i, j] == personagem.posicao:
                 print('@', end=' ')
             elif [i, j] == tesouro.posicao:
-                print('.', end=' ')
+                print('X', end=' ')
             else:
                 print('.', end=' ')
         print()
